@@ -1,0 +1,36 @@
+
+/** Board List **/
+#board-list {background-color:#fff;padding:2rem 4.5rem;margin-bottom:50px;}
+#board-list .board-list-content {background-color:#fff;}
+
+
+
+/** Board View **/
+#board-view {background-color:#fff;padding:2rem 4.5rem;margin-bottom:50px;}
+
+#board-view .bv-header .bv-header-top {width:100%}
+#board-view .bv-header .bv-header-top .bv-header-category{margin-bottom:25px;color:#666}
+#board-view .bv-header .bv-header-top .bv-header-category .cateitem{margin-right:10px}
+#board-view .bv-header .bv-header-top .bv-header-detail .bv-header-l {display:inline-block;vertical-align: top;}
+#board-view .bv-header .bv-header-top .bv-header-detail .bv-header-c {display:inline-block;margin-left: 1rem;}
+#board-view .bv-header .bv-header-top .bv-header-detail .bv-header-c .bv-header-subject{font-size:1.1rem;color:#111;margin-bottom:5px;font-weight:500}
+#board-view .bv-header .bv-header-top .bv-header-detail .bv-header-c .bv-header-writer{font-size:0.85rem;color:#333}
+#board-view .bv-header .bv-header-top .bv-header-detail .bv-header-r {display:inline-block;float:right}
+#board-view .bv-header .bv-header-top .bv-header-detail .bv-header-r .sjwi-more{font-size:24px}
+
+#board-view .bv-header .bv-header-bottom {width:100%;margin-top:0.5rem;padding-bottom:1.5rem;border-bottom:1px solid #ddd}
+#board-view .bv-header .bv-header-bottom .bv-header-detail{width:100%;padding:0.3rem 0 0.3rem 0;color:#999;font-size:0.85rem}
+#board-view .bv-header .bv-header-bottom .bv-header-detail .date{margin:0 7px 0 7px}
+#board-view .bv-header .bv-header-bottom .bv-header-detail .tit{margin-right:10px;}
+#board-view .bv-header .bv-header-bottom .bv-header-detail a {color:#999}
+
+#board-view .bv-body {margin:2rem 0 2rem 0}
+
+
+
+/** Board Write **/
+#board-write {background-color:#fff;padding:2rem 4.5rem;margin-bottom:50px;}
+#board-write .bw-top .form-group {border-bottom:1px solid #ddd;padding-bottom: 15px;} 
+#board-write .bw-top .form-group .sender-btn {font-size:1.2rem;text-align: right;}
+#board-write .bw-contents .ck-editor__editable{height:500px}
+#board-write .bw-btnarea{margin-top:30px;text-align:right;}

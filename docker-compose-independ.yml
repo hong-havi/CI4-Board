@@ -1,0 +1,61 @@
+version: '3.7'
+services:
+  # ci4-board
+  ci4-board:
+    build:
+      context: .
+      dockerfile: ./dockerfile/ci4-board/Dockerfile-production
+    image: kcr.kakaovx.com/vx-in-account:${tag}
+    restart: always
+    tty: true
+    ports:
+      - "80:80"
+    environment:
+      SERVICE_NAME: ci4-board
+      ENV: production
+    working_dir: /data/ci4-board
+    networks:
+      - ci4-board-network
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "50m"
+        max-file: "3"
+    deploy:
+      replicas: 1
+    secrets:
+      - source: app_key
+
+      - source: cdn_ftp_password
+      - source: cdn_ftp_username
+
+      - source: google_accesstoken
+      - source: google_credentials
+
+      - source: ssl_domain_bundle_crt
+      - source: ssl_domain_crt
+      - source: ssl_domain_key
+
+      - source: db_hr_database
+      - source: db_hr_password
+      - source: db_hr_username
+
+      - source: token_enckey
+      - source: token_pa_api 
+
+      - source: ldap_password
+
+      - source: enc_iv
+      - source: enc_key
+      
+# Docker Networks
+networks:
+  ci4-board-network:
+
+secrets:
+  db_ip:
+    file: ./secret/db_ip
+  db_user:
+    file: ./secret/db_user
+  db_password:
+    file: ./secret/db_password

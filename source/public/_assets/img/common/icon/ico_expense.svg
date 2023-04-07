@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24.036" height="24.036" viewBox="0 0 24.036 24.036">
+    <defs>
+        <style>
+            .cls-2{fill:#999}
+        </style>
+    </defs>
+    <g id="_04" data-name="4" transform="translate(-1496 -41)">
+        <path id="Fill" d="M23.319 25.536H2.753a1.719 1.719 0 0 1-1.717-1.717V5.792a1.719 1.719 0 0 1 1.717-1.717h3.29v-.858A1.719 1.719 0 0 1 7.76 1.5h10.873a1.719 1.719 0 0 1 1.717 1.717v.858h2.968a1.719 1.719 0 0 1 1.717 1.717v18.027a1.719 1.719 0 0 1-1.716 1.717zM2.878 5.792v18.027h20.638V5.792h-3.44v2.575H6.317V5.792zM7.76 3.217V6.65h11.017V3.217z" class="cls-2" transform="translate(1495 39.5)"/>
+        <path id="Union_6" d="M-6152.415 10.07l2.829-2.828-2.828-2.828L-6151 3l4.242 4.243-1.413 1.414-2.829 2.828z" class="cls-2" data-name="Union 6" transform="translate(7660 47.757)"/>
+        <path id="Rectangle_88" d="M0 0H2V8H0z" class="cls-2" data-name="Rectangle 88" transform="rotate(90 728.5 782.5)"/>
+    </g>
+</svg>

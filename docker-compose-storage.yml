@@ -1,0 +1,34 @@
+version: '3.7'
+services:
+  # ci4-board
+  ci4-board:
+    build:
+      context: .
+      dockerfile: ./dockerfile/ci4-board/Dockerfile-local
+    image: ci4-board
+    container_name: ci4-board
+    restart: always
+    tty: true
+    ports:
+      - "8003:443"
+    environment:
+      SERVICE_NAME: ci4-board
+      ENV: local
+    working_dir: /home/ci4-board
+    volumes:
+      - ./source:/home/ci4-board
+      - /etc/httpd/logs:/etc/httpd/logs
+      #Secrets 파일 경로
+      - ./secret/:/run/secrets
+    networks:
+      - ci4-board-network
+    logging:
+      #limit logs to 150MB (3rotations of 50M each)
+      driver: "json-file"
+      options:
+        max-size: "50m"
+        max-file: "3"
+
+# Docker Networks
+networks:
+  ci4-board-network:

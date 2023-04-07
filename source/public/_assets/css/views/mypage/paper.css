@@ -1,0 +1,25 @@
+
+#paper-wrap .paper-tab ul{margin:0;padding:0;list-style: none;width:100%;border-bottom:1px solid #2082ef;height:50px;}
+#paper-wrap .paper-tab ul li{display:inline-block;border-left:1px solid #fff;background:#ddd;height:100%;line-height:50px;width:25%;text-align:center}
+#paper-wrap .paper-tab ul li a{font-size:15px;color:#666;}
+#paper-wrap .paper-tab ul li:last-child(){border-left:none;}
+#paper-wrap .paper-tab ul li.active {background:#2082ef;}
+#paper-wrap .paper-tab ul li.active a{color:#fff}
+
+#paper-wrap .paper-content {padding:15px 20px 15px 20px}
+#paper-wrap .paper-content .paper-content-tab {margin-bottom:20px}
+#paper-wrap .paper-content .paper-content-tab ul{margin:0;padding:0;list-style: none;width:100%;width:100%} 
+#paper-wrap .paper-content .paper-content-tab ul li{font-size:15px;display:inline-block;width:16%;border-bottom:1px solid #ddd;text-align:center;padding:9px 0}
+#paper-wrap .paper-content .paper-content-tab ul li a {color:#666}
+#paper-wrap .paper-content .paper-content-tab ul li a .cnt{display:inline-block;background:#666;width:20px;height:20px;border-radius: 50%;text-align:center;line-height:20px;font-size:12px;color:#fff}
+#paper-wrap .paper-content .paper-content-tab ul li.active {border-bottom:1px solid #2082ef;}
+#paper-wrap .paper-content .paper-content-tab ul li.active a {color:#2082ef}
+#paper-wrap .paper-content .paper-content-tab ul li.active a .cnt{background: #2082ef;}
+#paper-wrap .paper-content .paper-content-search .select_st1 {height:40px}
+#paper-wrap .paper-content .paper-content-search .search-st1 .input_search{width:380px}
+
+#paper-wrap .paper-content .paper-content-list {margin:15px 0;}
+#paper-wrap .paper-content .paper-content-list .table-st3 {width:100%;border-top:1px solid #ddd;border-bottom:1px solid #ddd}
+#paper-wrap .paper-content .paper-content-list .table-st3 td, a{padding:9px 0;text-align:center;color:#999}
+#paper-wrap .paper-content .paper-content-list .table-st3 .noread td, .noread a{color:#333}
+#paper-wrap .paper-content .paper-content-btn {text-align:right;}

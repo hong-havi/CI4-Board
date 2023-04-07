@@ -1,0 +1,96 @@
+@font-face {
+  font-family: 'intra-sjwicon';
+  src:  url('fonts/intra-sjwicon.eot?4s58cm');
+  src:  url('fonts/intra-sjwicon.eot?4s58cm#iefix') format('embedded-opentype'),
+    url('fonts/intra-sjwicon.ttf?4s58cm') format('truetype'),
+    url('fonts/intra-sjwicon.woff?4s58cm') format('woff'),
+    url('fonts/intra-sjwicon.svg?4s58cm#intra-sjwicon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="sjwi-"], [class*=" sjwi-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'intra-sjwicon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.sjwi-next:before {
+  content: "\e915";
+}
+.sjwi-prev:before {
+  content: "\e916";
+}
+.sjwi-more:before {
+  content: "\e914";
+}
+.sjwi-edit:before {
+  content: "\e913";
+}
+.sjwi-close:before {
+  content: "\e90f";
+}
+.sjwi-close_bold:before {
+  content: "\e910";
+}
+.sjwi-menu:before {
+  content: "\e911";
+}
+.sjwi-refreash:before {
+  content: "\e912";
+}
+.sjwi-minus:before {
+  content: "\e900";
+}
+.sjwi-plus-circle:before {
+  content: "\e902";
+}
+.sjwi-bell:before {
+  content: "\e901";
+}
+.sjwi-star:before {
+  content: "\e90d";
+}
+.sjwi-delete:before {
+  content: "\e903";
+}
+.sjwi-download:before {
+  content: "\e904";
+}
+.sjwi-edms:before {
+  content: "\e905";
+}
+.sjwi-expense:before {
+  content: "\e906";
+}
+.sjwi-file:before {
+  content: "\e907";
+}
+.sjwi-file_plus:before {
+  content: "\e908";
+}
+.sjwi-list:before {
+  content: "\e909";
+}
+.sjwi-lock:before {
+  content: "\e90a";
+}
+.sjwi-plus:before {
+  content: "\e90b";
+}
+.sjwi-psearch:before {
+  content: "\e90c";
+}
+.sjwi-search:before {
+  content: "\e90e";
+}

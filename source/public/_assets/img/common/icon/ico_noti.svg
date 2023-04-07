@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24.501" height="25" viewBox="0 0 24.501 25">
+    <g id="_02" data-name="2" transform="translate(-2.956 -.924) translate(3.457 1.424)">
+        <g id="Group_11" stroke="rgba(0,0,0,0)" data-name="Group 11">
+            <path id="Actions_Toggle_notification_32" fill="#999" stroke-miterlimit="10" d="M11.652 24a4.606 4.606 0 0 1-3.571-1.508 4.98 4.98 0 0 1-1.2-3.313H.83a.834.834 0 0 1-.586-.24.813.813 0 0 1-.244-.631v-2.616a.783.783 0 0 1 .266-.61l2.388-2.354V8.717A8.9 8.9 0 0 1 10.615 0h1.769a8.813 8.813 0 0 1 7.96 8.717v4.01l2.388 2.354a.786.786 0 0 1 .265.61v2.615a.813.813 0 0 1-.241.634.834.834 0 0 1-.587.24H16.5A4.681 4.681 0 0 1 11.652 24zM11.5 1.743a7.033 7.033 0 0 0-7.076 6.974v4.36a.788.788 0 0 1-.266.61L1.77 16.041v1.4h19.458v-1.4l-2.388-2.354a.788.788 0 0 1-.266-.61v-4.36A7.033 7.033 0 0 0 11.5 1.743z" data-name="Actions / Toggle / notification / 32"/>
+            <path id="Path_2" fill="#fff" d="M6 6a3 3 0 0 1-6 0" data-name="Path 2" transform="translate(8.688 13.459)"/>
+        </g>
+    </g>
+</svg>

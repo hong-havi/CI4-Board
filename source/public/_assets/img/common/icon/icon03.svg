@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24.586" height="24" viewBox="0 0 24.586 24">
+    <defs>
+        <style>
+            .cls-4{stroke:transparent;stroke-miterlimit:10;fill:#111}
+        </style>
+    </defs>
+    <g id="icon03" transform="translate(-2.311 -2)">
+        <g id="Group_13" data-name="Group 13" transform="translate(-.702)">
+            <path id="Path" fill="#f1950b" stroke="rgba(0,0,0,0)" stroke-miterlimit="10" d="M0 3.25V0h6v3.25c0 1.026-1.343 1.857-3 1.857S0 4.276 0 3.25z" transform="rotate(10.02 -63.055 47.371)"/>
+            <path id="Path-2" fill="#f24141" stroke="rgba(0,0,0,0)" stroke-miterlimit="10" d="M0 3.25V0h6v3.25c0 1.026-1.343 1.857-3 1.857S0 4.276 0 3.25z" data-name="Path" transform="rotate(-10.02 81.315 -93.235)"/>
+            <path id="Subtraction_7" d="M-10487.251-1243h-7.5l-.006-1.923 2.811-.039v-3.893a4.134 4.134 0 0 1-2.589-1.511 4.653 4.653 0 0 1-.97-2.882v-6a.752.752 0 0 1 .751-.751h7.5a.752.752 0 0 1 .751.751v6a4.886 4.886 0 0 1-.854 2.878 3.753 3.753 0 0 1-2.474 1.507v3.893l2.576.047v1.922zm-6.316-14.9v4.491a2.571 2.571 0 0 0 2.568 2.568 2.57 2.57 0 0 0 2.567-2.568v-4.491z" class="cls-4" data-name="Subtraction 7" transform="rotate(10.02 -12449.855 59273.926)"/>
+            <path id="Subtraction_11" d="M-10485.286-1242.618h-7.5v-1.925l2.808-.04v-3.892a4.131 4.131 0 0 1-2.588-1.511 4.651 4.651 0 0 1-.97-2.882v-6a.751.751 0 0 1 .75-.75h7.5a.751.751 0 0 1 .75.75v6a4.9 4.9 0 0 1-.854 2.878 3.747 3.747 0 0 1-2.472 1.507v3.9l2.575.045.006 1.924zm-6.318-14.9v4.49a2.571 2.571 0 0 0 2.568 2.568 2.57 2.57 0 0 0 2.567-2.568v-4.49z" class="cls-4" data-name="Subtraction 11" transform="rotate(-10.02 2013.043 -60559.478)"/>
+            <path id="Union_12" fill="#111" d="M-10483.8-1256.292l2.83-2.831 1.414 1.414-2.83 2.831zm-8-1.417l1.414-1.414 2.828 2.828-1.414 1.417zm5.122 1.709v-4h2v4z" data-name="Union 12" transform="translate(10501.002 1262)"/>
+        </g>
+    </g>
+</svg>
